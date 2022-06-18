@@ -25,7 +25,3 @@ const logTodo = (id: number, title: string, completed: boolean) => {
     Is it finished? ${completed}
 `);
 };
-
-const logNumber: (i: number) => void = (i: number) => {
-    console.log(i);
-};
